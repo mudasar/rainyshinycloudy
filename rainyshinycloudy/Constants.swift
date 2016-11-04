@@ -12,7 +12,7 @@ let BASE_URL = "http://api.openweathermap.org/data/2.5/"
 let WEATHER_API_CALL = "weather?"
 let LATTITUDE = "lat=\(Location.sharedLocation.lattitude!)"
 let LONGITUDE = "&lon=\(Location.sharedLocation.longitude!)"
-let API_KEY = "&appid=0e372f70724e35517b20becc4b1c23a2"
+let API_KEY = "&appid=COPY_YOUR_OPEN_WEATHER_MAP_API_KEY"
 
 let CURRENT_WEATHER_URL = "\(BASE_URL)\(WEATHER_API_CALL)\(LATTITUDE)\(LONGITUDE)\(API_KEY)"
 let FORECAST_API_CALL = "forecast/daily?"
